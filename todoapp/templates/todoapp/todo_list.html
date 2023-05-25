@@ -23,7 +23,7 @@
         <a href="{% url 'edit_todo' todo.id %}" class="button float-right d-inline">
           <i class="fa-regular fa-pen-to-square"></i>
         </a>
-        <form action="{% url 'add_todo' %}" method="post" class="float-right d-inline pr-2">
+        <form action="" method="post" class="float-right d-inline pr-2">
           {% csrf_token %}
           <a href="{% url 'delete_todo' todo.id %}"  type="submit" id="button-addon2">
             <i class="fa-solid fa-trash text-danger"></i>
@@ -46,7 +46,7 @@
         <a href="{% url 'edit_todo' todo.id %}" class="button float-right d-inline">
           <i class="fa-regular fa-pen-to-square"></i>
         </a>
-        <form action="{% url 'add_todo' %}" method="post" class="float-right d-inline pr-2">
+        <form action="" method="post" class="float-right d-inline pr-2">
           {% csrf_token %}
           <a href="{% url 'delete_todo' todo.id %}"  type="submit" id="button-addon2">
             <i class="fa-solid fa-trash text-danger"></i>
