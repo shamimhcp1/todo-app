@@ -1,5 +1,11 @@
-# todo-app
-*Add everything that you have to do.*
+# Django To-Do App
 
-**Need to code for:**
-* jQuery alert option onclick delete option.
+This is a simple Django to-do app that allows you to manage your tasks. It provides the following functionalities:
+
+- **Create a Task:**
+
+- **Edit a Task:**
+
+- **Delete a Task:**
+
+- **Complete a Task:**
