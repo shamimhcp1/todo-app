@@ -4,7 +4,7 @@
 {% block content %}
 
 <div class="card-body">
-  <form action="{% url 'update_todo' todo.id %}" method="post">
+  <form action="{% url 'edit_todo' todo.id %}" method="post">
       {% csrf_token %}
       <div class="input-group mb-3">
           <input type="text" class="form-control" autofocus value="{{ todo.content}}" name="content" placeholder="Add todo here.." aria-label="Recipient's username" aria-describedby="button-addon2">
